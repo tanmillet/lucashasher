@@ -1,0 +1,21 @@
+{
+  "name": "lucas/haser",
+  "description": "Md5 supporr laravel",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Terry Lucas",
+      "email": "tanmillet@sina.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "classmap": [
+      "database"
+    ],
+    "psr-4": {
+      "Lucas\\Hasher\\": "src/"
+    }
+  }
+}
