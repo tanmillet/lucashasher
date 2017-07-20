@@ -6,7 +6,7 @@
  * Time: 16:43
  */
 
-namespace Lucas\Hasher;
+namespace TerryLucas2017\Hasher;
 
 /**
  * Class LucasMD5

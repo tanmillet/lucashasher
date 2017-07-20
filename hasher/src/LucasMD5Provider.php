@@ -1,6 +1,6 @@
 <?php
 
-namespace Lucas\Hasher;
+namespace TerryLucas2017\Hasher;
 
 use Illuminate\Support\ServiceProvider;
 
