@@ -11,7 +11,7 @@ Laravel 5.x:
 
 ```php
 
-\TerryLucasInterFaceLog\Logger\TerryLucasLoggerProvider::class,
+TerryLucas2017\Hasher\LucasMD5Provider::class,
 
 ```
 
