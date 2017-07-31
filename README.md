@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/tanmillet/lucashasher.svg?branch=master)](https://travis-ci.org/tanmillet/lucashasher)
+
 # Installation
 Require this package with composer:
 
