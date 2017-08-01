@@ -1,5 +1,4 @@
-[![Build Status](https://travis-ci.org/tanmillet/lucashasher.svg?branch=master)](https://travis-ci.org/tanmillet/lucashasher)
-
+[![Build Status](https://travis-ci.org/tanmillet/lucashasher.svg?branch=master)](https://travis-ci.org/tanmillet/lucashasher) [![StyleCI](https://styleci.io/repos/97816897/shield?branch=master)](https://styleci.io/repos/97816897)
 # Installation
 Require this package with composer:
 
