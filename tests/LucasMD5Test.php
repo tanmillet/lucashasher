@@ -39,8 +39,8 @@ class LucasMD5Test extends \PHPUnit\Framework\TestCase
      */
     public function testHasherMakeWithSalt()
     {
-        $two = $this->hasher->make('123456' , ['salt'=> 'lucas']);
-        $one = md5('123456' , 'lucas');
+        $two = $this->hasher->make('123456', ['salt' => 'lucas']);
+        $one = md5('123456', 'lucas');
 
         $this->assertEquals($one, $two);
     }

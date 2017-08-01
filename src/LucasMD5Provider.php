@@ -24,9 +24,12 @@ class LucasMD5Provider extends ServiceProvider
     public function register()
     {
         //
-        $this->app->singleton('lucasmd5', function () {
+        $this->app->singleton(
+            'lucasmd5',
+            function () {
 
-            return new LucasMD5();
-        });
+                return new LucasMD5();
+            }
+        );
     }
 }
