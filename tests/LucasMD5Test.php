@@ -2,20 +2,23 @@
 
 /**
  * Class LucasMD5
+ *
  * User: Terry Lucas
- * @package Lucas\Hasher
  */
 class LucasMD5Test extends \PHPUnit\Framework\TestCase
 {
 
     /**
      * User: Terry Lucas
+     *
      * Date: ${DATE}
+     *
      * @var
      */
     public $hasher;
 
     /**
+     *
      * User: Terry Lucas
      */
     public function setUp()
@@ -24,6 +27,7 @@ class LucasMD5Test extends \PHPUnit\Framework\TestCase
     }
 
     /**
+     *
      * User: Terry Lucas
      */
     public function testHasherMake()
@@ -35,6 +39,7 @@ class LucasMD5Test extends \PHPUnit\Framework\TestCase
     }
 
     /**
+     *
      * User: Terry Lucas
      */
     public function testHasherMakeWithSalt()
@@ -46,6 +51,7 @@ class LucasMD5Test extends \PHPUnit\Framework\TestCase
     }
 
     /**
+     *
      * User: Terry Lucas
      */
     public function testHasherChect()

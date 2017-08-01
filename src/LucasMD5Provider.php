@@ -4,12 +4,15 @@ namespace TerryLucas2017\Hasher;
 
 use Illuminate\Support\ServiceProvider;
 
+/**
+ * Class LucasMD5Provider
+ *
+ * User: Terry Lucas
+ */
 class LucasMD5Provider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
-     *
-     * @return void
      */
     public function boot()
     {
@@ -18,8 +21,6 @@ class LucasMD5Provider extends ServiceProvider
 
     /**
      * Register the application services.
-     *
-     * @return void
      */
     public function register()
     {
