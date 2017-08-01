@@ -1,15 +1,14 @@
 <?php
 
 /**
- * Class LucasMD5
+ * Class LucasMD5.
  *
  * User: Terry Lucas
  */
 class LucasMD5Test extends \PHPUnit\Framework\TestCase
 {
-
     /**
-     * User: Terry Lucas
+     * User: Terry Lucas.
      *
      * Date: ${DATE}
      *
@@ -18,8 +17,7 @@ class LucasMD5Test extends \PHPUnit\Framework\TestCase
     public $hasher;
 
     /**
-     *
-     * User: Terry Lucas
+     * User: Terry Lucas.
      */
     public function setUp()
     {
@@ -27,8 +25,7 @@ class LucasMD5Test extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     *
-     * User: Terry Lucas
+     * User: Terry Lucas.
      */
     public function testHasherMake()
     {
@@ -39,8 +36,7 @@ class LucasMD5Test extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     *
-     * User: Terry Lucas
+     * User: Terry Lucas.
      */
     public function testHasherMakeWithSalt()
     {
@@ -51,8 +47,7 @@ class LucasMD5Test extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     *
-     * User: Terry Lucas
+     * User: Terry Lucas.
      */
     public function testHasherChect()
     {
