@@ -5,7 +5,7 @@ namespace TerryLucas2017\Hasher;
 use Illuminate\Support\ServiceProvider;
 
 /**
- * Class LucasMD5Provider
+ * Class LucasMD5Provider.
  *
  * User: Terry Lucas
  */
@@ -28,7 +28,6 @@ class LucasMD5Provider extends ServiceProvider
         $this->app->singleton(
             'lucasmd5',
             function () {
-
                 return new LucasMD5();
             }
         );

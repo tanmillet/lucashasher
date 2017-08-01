@@ -3,14 +3,14 @@
 namespace TerryLucas2017\Hasher;
 
 /**
- * Class LucasMD5
+ * Class LucasMD5.
  *
  * User: Terry Lucas
  */
 class LucasMD5
 {
     /**
-     * User: Terry Lucas
+     * User: Terry Lucas.
      *
      * @param $value
      * @param array $options
@@ -25,7 +25,7 @@ class LucasMD5
     }
 
     /**
-     * User: Terry Lucas
+     * User: Terry Lucas.
      *
      * @param $value
      * @param $hashValue
@@ -37,7 +37,6 @@ class LucasMD5
     {
         $salt = isset($options['salt']) ? $options['salt'] : '';
 
-
-        return hash('md5', $value, $salt) == $hashValue;
+        return hash('md5', $value, $salt) === $hashValue;
     }
 }
